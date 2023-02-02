@@ -1,1 +1,1 @@
-# DI-Bootcamp-Week5-Day1-ExercisesXP
+# DI-Bootcamp-Week6-Day1-ExercisesXPGOLD
