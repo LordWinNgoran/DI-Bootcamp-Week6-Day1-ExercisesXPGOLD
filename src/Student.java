@@ -1,9 +1,16 @@
+//Exercise 3 : Constructor Overloading
+/*
+ * @author: N'goran Kouadio Jean Cyrille
+ * Date : 29/01/2023
+ */
 public class Student {
+    // all attributes of the Student class
     private String name;
     private int age;
     private String course;
     private char grade;
 
+    //default constructor initialize
     public Student() {
         this.name = "Lordwin James";
         this.age = 25;
@@ -11,6 +18,7 @@ public class Student {
         this.grade = 'B';
     }
 
+    //Constructor with parameters
     public Student(String name, int age, String course, char grade) {
         this.name = name;
         this.age = age;
@@ -18,6 +26,7 @@ public class Student {
         this.grade = grade;
     }
 
+    //A method to display Student Info
     public void displayStudentInfo() {
         System.out.println("Name: " + this.name +
                 " Age: " +
